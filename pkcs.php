@@ -21,7 +21,7 @@ class Pkcs {
         $this->slot     = 1;
         $this->pin      = 123456;;
         $this->keyLabel = "aes128";
-        $this->user_name= $this->f3->config('config.ini')->get('username');
+        $this->user_name= 'test:123456';
         self::$path     = '/opt/lib/libcloudhsm_pkcs11.so';
     }
 
